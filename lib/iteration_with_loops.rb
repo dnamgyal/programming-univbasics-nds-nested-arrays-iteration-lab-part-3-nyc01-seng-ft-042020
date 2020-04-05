@@ -9,4 +9,5 @@ def join_nested_strings(src)
       end 
     end
   end
+  return atrings.join(' ')
 end
