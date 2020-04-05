@@ -4,7 +4,7 @@ def join_nested_strings(src)
   strings = []
   for x in src
     for y in x
-      if y.string?
+      if y.is_a? String 
         strings << y
       end 
     end
