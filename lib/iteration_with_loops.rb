@@ -6,6 +6,7 @@ def join_nested_strings(src)
     for y in x
       if y.string?
         strings << y
+      end 
     end
   end
 end
